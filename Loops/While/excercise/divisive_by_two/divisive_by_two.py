@@ -1,4 +1,4 @@
-#Uywając pętli while napisz kod, ktory dla podanej liczby będzie wykonywał dzielenie tak długo, az reszta z dzielenia nie będzie wynosiła 0
+#Uywając pętli while napisz kod, ktory dla podanej liczby będzie wykonywał dzielenie dopóki reszta z dzielenia będzie wynosiła 0
 
 #Przykładowy wynik:
 #Reszta z dzielenia 16 / 2 wynosi 0
