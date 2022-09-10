@@ -96,7 +96,7 @@ if (a == 2 or b == 1) and 'in the way' in text:
     # 
     # Operator and zwraca więc Prawdę (True)
 
-#TEST 5
+#TEST 5 - co wypisze na ekran ponizszy kod?
 print('\nTEST 5')
 
 if a == 2 or b == 1:
@@ -119,7 +119,7 @@ if a == 2 or b == 1:
     # Tak, napis znajduje się w tej wartości i wypisany na ekran zostaje napis 'Napis "Something" znajduje się w wartości zmiennej text'
 
 
-#TEST 6
+#TEST 6 - co wypisze na ekran ponizszy kod?
 list_of_attendees = ['John', 'Paul', 'George', 'Richard']
 zero = 0
 
