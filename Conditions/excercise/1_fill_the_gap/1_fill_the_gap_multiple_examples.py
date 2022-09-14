@@ -34,7 +34,6 @@ _gap_4_2
 
 # EXAMPLE 5
 
-# EXAMPLE 5
 car_features = ['OLED display', 'LED lights', 'Winter seats', 'Premium speakers']
 selected_feature_number = input('Podaj numer zetawu:\n1: OLED display\n2: LED lights\n3: Winter seats\n4: Premium speakers\n')
 user_selected_features = []
