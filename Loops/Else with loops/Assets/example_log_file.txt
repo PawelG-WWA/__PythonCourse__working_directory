@@ -1,0 +1,4 @@
+Pierwsza linia
+Druga linia
+ERROR - coś poszło nie tak, kod błędu: 123, godzina wystąpienia: 11:12:59.786
+Trzecia linia

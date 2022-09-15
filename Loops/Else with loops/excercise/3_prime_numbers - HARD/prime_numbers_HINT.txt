@@ -1,0 +1,40 @@
+PODPOWIEDŹ:
+Przy sprawdzaniu, czy uzytkownik podał wyłącznie liczby uzyj pętli do przechodzenia po kolejnych elementach łańcucha znaków
+oddzielonych spacjami. Uzyj break dla tej pętli, jeśli uzytkownik nie wprowadził samych liczb.
+
+Jeśli uzytkownik wprowadził same liczby, resztę kodu napisz w bloku else dla tej pętli (poniewaz nie zakończy się ona przez break)
+
+Przy sprawdzaniu, czy dana liczba jest liczbą pierwszą, musisz uzyć dwóch pętli:
+    -jednej do przechodzenia po kazdej kolejnej liczbie podanej przez uzytkownika,
+    -drugiej do sprawdzenia czy dana liczba posiada dzielnik z zakresu pomiędzy dwa a badaną liczbą
+ 
+Jeśli dana liczba posiada taki dzielnik z zakresu pomiędzy 2 a daną liczbą, wtedy pętla powinna zakończyć się instrukcją break,
+poniewaz wiesz, ze taka liczba posiada wiecej dzielników niz 1 i samą siebie
+
+W przeciwnym przypadku pętla sprawdzająca dzielniki zakończy się bez wywołania break. Oznacza to, ze będziesz mógł wykonać
+blok else, w którym wypiszesz na ekran napis:
+-Liczba [liczba która jest liczbą pierwszą] jest liczbą pierwszą
+
+
+
+
+PSEUDOKOD:
+user_data = pobierz dane od uzytkownika
+
+user_data_list = stwórz listę z danych uzytkownika oddzielonych spacjami
+
+numbers = stworz pustą listę, która będzie przechowywała liczby
+
+for x in user_data_list:
+    jeśli x nie jest liczbą
+        Wypisz: 'Niepoprawne dane: podaj wyłącznie liczby oddzielone spacjami'
+        Zakończ działanie pętli
+    Dodaj do listy numbers x
+jeśli pętla nie zakończyła się przez break:
+    for x in numbers:
+        jeśli x jest większe od 1:
+            for divisor in zakres dzielników od dwóch do danej liczby (tzn. <2, x)):
+                jeśli reszta z dzielenia x przez dzielnik z powyzszego zakresu jest równy 0:
+                    Przerwij wykonywanie pętli, poniewaz juz wiesz, ze dany x nie jest liczbą pierwszą
+            jeśli powyzsza pętla nie zakończyła się przez break:
+                Wypisz 'Liczba x jest liczbą pierwszą' (zastąp x liczbą)
