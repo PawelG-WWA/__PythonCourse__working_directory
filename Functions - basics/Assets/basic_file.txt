@@ -1,0 +1,2 @@
+Name: Pawel, Age: 32, Occupation: Programmer
+Name: Cristian, Age:36, Occupation: Footballer
