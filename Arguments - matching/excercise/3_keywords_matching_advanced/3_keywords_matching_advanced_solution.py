@@ -1,0 +1,1 @@
+# Zagadki z podawaniem jednych argumentow pozycyjnie, innych po slowach kluczowych itp
