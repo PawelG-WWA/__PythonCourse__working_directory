@@ -1,0 +1,54 @@
+{
+    "links": ["clubs_in_groups"],
+    "clubs_data":
+    [
+        {
+            "id": 1,
+            "name": "Warsaw"
+        },
+        {
+            "id": 2,
+            "name": "Manchester"
+        },
+        {
+            "id": 3,
+            "name": "London"
+        },
+        {
+            "id": 4,
+            "name": "Madrid"
+        },
+        {
+            "id": 5,
+            "name": "Barcelona"
+        },
+        {
+            "id": 6,
+            "name": "Helsinki"
+        },
+        {
+            "id": 7,
+            "name": "Stockholm"
+        },
+        {
+            "id": 8,
+            "name": "Kopenhagen"
+        },
+        {
+            "id": 9,
+            "name": "Berlin"
+        },
+        {
+            "id": 10,
+            "name": "Munich"
+        },
+        {
+            "id": 11,
+            "name": "Paris"
+        },
+        {
+            "id": 12,
+            "name": "Praga"
+        }
+    ]
+}

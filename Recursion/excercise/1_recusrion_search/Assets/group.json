@@ -1,0 +1,18 @@
+{
+    "links": ["clubs_in_groups"],
+    "groups_data":
+    [
+        {
+            "id": 1,
+            "name": "Group A"
+        },
+        {
+            "id": 10,
+            "name": "Group B"
+        },
+        {
+            "id": 12,
+            "name": "Group C"
+        }
+    ]
+}
